@@ -1,4 +1,4 @@
-import { baseColors } from "./src/utils/themes.js"
+import { baseColors } from "./src/utils/colors.js"
 import { baseFonts } from "./src/utils/fonts.js"
 
 /** @type {import('tailwindcss').Config} */
