@@ -1,3 +1,6 @@
+import { baseColors } from "./src/utils/themes.js"
+import { baseFonts } from "./src/utils/fonts.js"
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,7 +8,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        ...baseColors
+      },
+      fontFamily: {
+        ...baseFonts
+      },
+    },
   },
   plugins: [],
 }
